@@ -29,7 +29,7 @@ public class AplikasiJariyah extends Application {
         root.getStylesheets().add(getClass().getResource("css/UiStylesheet.css").toExternalForm());
 
         Scene scene = new Scene(root);
-        stage.setTitle("Queue by Nabil Najmudin, 21523281");
+        stage.setTitle("Jariyah");
 
 //        stage.setMaximized(true);
         stage.setScene(scene);
@@ -40,6 +40,7 @@ public class AplikasiJariyah extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int a = 59; 
         launch(args);
     }
     
