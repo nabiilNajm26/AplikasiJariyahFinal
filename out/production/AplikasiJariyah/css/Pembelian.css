@@ -1,0 +1,23 @@
+.btn {
+    -fx-background-color: #3d81f5;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow 0 0 10px 0;
+    
+    
+}
+
+.btn:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #3d81f5;
+    -fx-font-weight:bold;
+    -fx-border-color: #3d81f5;
+    -fx-border-width: 1;    
+}
+
+.btn:pressed{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight:light;
+    -fx-border-color: #3d81f5;
+    -fx-border-width: 1;
+}

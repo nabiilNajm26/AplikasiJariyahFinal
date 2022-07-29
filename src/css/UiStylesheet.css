@@ -1,5 +1,5 @@
 .parent {
-	-fx-background-color: #fff; 
+	-fx-background-color: #e9e7e8; 
 	
 }
 .sidebar {
@@ -7,11 +7,11 @@
 }
 
 .btns {
-	-fx-background-color: transparent;
+	-fx-background-color:  #e9e7e8;
 }
 
 .btns:hover {
-	-fx-background-color: #202332;
+	-fx-background-color: #e9e7e8;
 }
 
 .box {

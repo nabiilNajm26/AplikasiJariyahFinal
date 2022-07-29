@@ -1,0 +1,19 @@
+.butn
+{
+-fx-background-color : #283342;
+-fx-text-fill : white  ;
+}
+.butn:hover{
+-fx-background-color : #090b0f;
+-fx-font-weight : bold;
+}
+.butn:pressed
+{
+-fx-background-color : #009099;
+}
+
+.clk{
+-fx-background-color : #009099;
+}
+
+

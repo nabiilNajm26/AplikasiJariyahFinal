@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #edf1f5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Pencarian">
+   <children>
+      <TableView fx:id="tvPembelian" layoutX="50.0" layoutY="94.0" prefHeight="480.0" prefWidth="700.0" stylesheets="@../css/tableView.css" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="94.0">
+         <columns>
+            <TableColumn fx:id="tcNomor" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" text="Nomor" />
+            <TableColumn fx:id="tcTgl" minWidth="6.666595458984375" onEditCommit="#tglOnEdit" prefWidth="131.199951171875" text="Tanggal" />
+            <TableColumn fx:id="tcTransaksi" minWidth="0.0" onEditCommit="#transaksiOnEdit" prefWidth="77.3333740234375" text="Transaksi" />
+            <TableColumn fx:id="tcNominal" minWidth="0.0" onEditCommit="#nominalOnEdit" prefWidth="93.06671142578125" text="Nominal" />
+            <TableColumn fx:id="tcJenis" onEditCommit="#jenisOnEdit" prefWidth="175.19989013671875" text="Jenis" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <TextField fx:id="tfCari" layoutX="176.0" layoutY="55.0" prefHeight="26.0" prefWidth="426.0" promptText="Masukkan kata kunci...." style="-fx-background-radius: 100;" AnchorPane.leftAnchor="176.0" />
+      <Label layoutX="131.0" layoutY="59.0" prefHeight="18.0" prefWidth="30.0" text="Cari" AnchorPane.leftAnchor="131.0" />
+      <Label fx:id="jam" layoutX="723.0" layoutY="36.0" text="Label" AnchorPane.rightAnchor="49.0" AnchorPane.topAnchor="36.0" />
+      <Label fx:id="bulan" layoutX="612.0" layoutY="36.0" text="Label" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="36.0" />
+   </children>
+</AnchorPane>
